@@ -13,7 +13,11 @@ public class Person {
 		this.Age = age;
 		this.Job = job;
 	}
-	
+	public Person(String name, int age) {
+		super();
+		this.Name = name;
+		this.Age = age;
+	}
 	
 	public Person() {
 		super();
