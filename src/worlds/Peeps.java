@@ -19,9 +19,9 @@ public class Peeps {
 		//System.out.println(sims);
 		
 		sims.forEach(x -> System.out.println(x));
-		sims.forEach(x -> System.out.println(x.getJob()));
-		sims.forEach(x -> System.out.println(x.getAge()));
-		sims.forEach(x -> System.out.println(x.getName()));
+		//sims.forEach(x -> System.out.println(x.getJob()));
+		//sims.forEach(x -> System.out.println(x.getAge()));
+		//sims.forEach(x -> System.out.println(x.getName()));
 		
 	}
 
