@@ -8,7 +8,6 @@ public class Vehicles {
 	public Vehicles() {
 		super();
 		
-	
 	}
 
 	public Vehicles(int noWheeles, int noDoors, boolean electric) {

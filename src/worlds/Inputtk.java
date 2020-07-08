@@ -25,7 +25,7 @@ public class Inputtk {
 		    Scanner op = new Scanner(System.in);
 		    //String poo = op.nextLine();
 		    String inut = op.next();
-		    if (inut.contains("+")) {
+		    if (inut.contains("+")) { 
 		    	int answer = ono + due; 
 		    	System.out.println(answer);
 		    }
