@@ -26,20 +26,17 @@ public class Inputtk {
 		    //String poo = op.nextLine();
 		    String inut = op.next();
 		    if (inut.contains("+")) { 
-		    	int answer = ono + due; 
-		    	System.out.println(answer);
+		    	
 		    }
 		    else if (inut.contains("/")){
-		    	int answer = ono / due;
-		    	System.out.println(answer);
+		    	//Divide();
+		    	System.out.println(Inputtk.divide(ono, due));
 		    }
 		    else if(inut.contains("*")){
-		    	int answer = ono * due;
-		    	System.out.println(answer);
+		    	System.out.println(Inputtk.times(ono, due));
 		    }
 		    else if(inut.contains("-")){
-		    	int answer = ono - due;
-		    	System.out.println(answer);
+		    	
 		    }
 		    else {
 		    	System .out.println(inut);
@@ -50,5 +47,13 @@ public class Inputtk {
 		    //System.out.println(answer)
 		    ;
 	}		
+	
+	private static int divide(int ono, int duo) {
+		return ono / duo;
+	}
+	
+	private static int times(int ono, int duo) {
+		return ono * duo;
+	}
 
 }
